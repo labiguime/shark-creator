@@ -64,9 +64,9 @@ void createShark( int sCenterX , int sCenterY , int sSize , int sColorR , int sC
 
   fill( sColorR-40 , sColorG-40 , sColorB-40 ) ; // The fins always are slightly darker
   
-  triangle( sCenterX-(round(sSize/3)), sCenterY-(round(sSize*0.75))-round(sSize/2),  
-            sCenterX-(round(sSize/3)), sCenterY-(round(sSize*0.75)), 
-            sCenterX+(round(sSize/3)), sCenterY-(round(sSize*0.75)) 
+  triangle( sCenterX - ( round( sSize/3 ) ) , sCenterY - ( round( sSize*0.75 ) )-round( sSize/2 ) ,  
+            sCenterX - ( round( sSize/3 ) ) , sCenterY - ( round( sSize*0.75 ) ) , 
+            sCenterX + ( round( sSize/3 ) ) , sCenterY - ( round( sSize*0.75 ) ) 
             ) ;
    
   triangle( sCenterX - sSize - round( sSize/2 ) , sCenterY , 
