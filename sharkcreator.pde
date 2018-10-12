@@ -7,31 +7,15 @@
 *  to generate sharks by using      *
 *  the function createShark(...)    *
 *                                   *
-*  Made for CMPT 166 D200           *
 *                                   *
-*  But as they say about sharks,    *
+*  "But as they say about sharks,   *
 *   it's not the ones you see that  *
 *   you have to worry about, it's   *
 *   the ones you don't see.         *
 *          - David Blaine           *
 *************************************/
 
-////////////////////////////////////////////////////////////////////////////////
 
-/****************************************
-*                                       *
-* Rumors say that The Potato Shark      *
-* was seenmhiding in VanSurBur's lake.  *
-* People say that he is preparing       *
-* a massive robbery on Tudou's farm,    *
-* something way bigger than Tudou or    *
-* the police can conceive.              *
-*                                       *
-* Run the program to see his "identikit * 
-* picture" .                            *
-****************************************/
-
-////////////////////////////////////////////////////////////////////////////////
 void setup() 
 {
   size( 500 , 500 ) ;
