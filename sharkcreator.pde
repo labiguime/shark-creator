@@ -59,7 +59,7 @@ void createShark( int sCenterX , int sCenterY , int sSize , int sColorR , int sC
 /***************************************
 * Our sharks have two fins. They are   *
 * triangle shaped, so we use the       *
-* in-built function.                   *
+* built-in function.                   *
 ****************************************/
 
   fill( sColorR-40 , sColorG-40 , sColorB-40 ) ; // The fins always are slightly darker
